@@ -413,6 +413,127 @@ int main()
     return 0;
 }
 ********************************************************************************************************************************
+WAP TO CHECK +VE OR -VE
+
+#include <stdio.h>
+int n;
+int main()
+{
+    printf("enter a number:\n");
+    scanf("%d",&n);
+    if(n==0)
+    {
+        printf("niether +ve nor negative");
+    
+    }
+    else if (n<0)
+    {
+        printf("it is negative number");
+    }
+    else{
+        printf("it is positive number");
+    }
+    
+    return 0;
+}
+***********************************************************************************************************************************
+WAP ACCEPT YEAR AND CHECK LEAP YEAR OR  NOT
+
+#include <stdio.h>
+int year;
+int main()
+{
+    printf("enter a year:\n");
+    scanf("%d",&year);
+    if((year % 4 ==0)|| (year % 100==0) || (year % 400==0))
+    {
+        printf("The year is leap year");
+    }
+    else
+    {
+        printf("it is not leap year");
+    }
+
+    return 0;
+}
+**********************************************************************************************************************************
+WAP ACCEPT TWO NUMBER AND PRINT MAX
+
+#include <stdio.h>
+int v,s;
+int main()
+{
+    printf("enter a first number\n");
+    scanf("%d",&v);
+    printf("enter a second number\n");
+    scanf("%d",&s);
+    if (v>s)
+    {
+        printf("Max number is:%d",v);
+    }
+    else
+    {
+        printf("the is not max");
+    }
+
+    return 0;
+}
+********************************************************************************************************************************
+WAP ACCEPT THREE NUMBER AND PRINT MAX
+
+#include <stdio.h>
+int v,s,t;
+int main()
+{
+    printf("enter a first number\n");
+    scanf("%d",&v);
+    printf("enter a second number\n");
+    scanf("%d",&s);
+    printf("enter a third number\n");
+    scanf("%d",&t);
+    if (v>= s && v>=t)
+    {
+        printf("Max number is:%d",v);
+    }
+    else if (s>=v && s>=t)
+    {
+        printf("Max number is:%d",s);
+    }
+    else if (t>=v && t>=s)
+    {    
+      printf("Max number is:%d",t);
+    }
+    return 0;
+}
+************************************************************************************************************************************
+WAP ACCEPT THREE NUMBER AND PRINT MINIMUM
+
+#include <stdio.h>
+int v,s,t;
+int main()
+{
+    printf("enter a first number\n");
+    scanf("%d",&v);
+    printf("enter a second number\n");
+    scanf("%d",&s);
+    printf("enter a third number\n");
+    scanf("%d",&t);
+    if (v<= s && v<=t)
+    {
+        printf("MINIMUM number is:%d",v);
+    }
+    else if (s<=v && s<=t)
+    {
+        printf("MINIMUM number is:%d",s);
+    }
+    else if (t<=v && t<=s)
+    {    
+      printf("MINIMUM number is:%d",t);
+    }
+    return 0;
+}
+************************************************************************************************************************************
+
 
 
 

@@ -533,6 +533,143 @@ int main()
     return 0;
 }
 ************************************************************************************************************************************
+WAP TO PRINT FIRST 10 EVEN NUMBER
+
+#include <stdio.h>
+int n,i;
+int main()
+{
+    printf("first 10 even number are:\n");
+    for(i=0;i<=10;i++)
+    {
+        printf("%d\n",2*i);
+    }
+
+    return 0;
+}
+*************************************************************************************************************************************
+WAP TO PRINT FIRST 10 ODD NUMBER
+
+#include <stdio.h>
+int n,i;
+int main()
+{
+    printf("first 10 even number are:\n");
+    for(i=0;i<=10;i++)
+    {
+        printf("%d\n",2*i-1);
+    }
+
+    return 0;
+}
+**************************************************************************************************************************************
+WAP TO PRINT DIVISOR OF NUMBER
+
+#include <stdio.h>
+int v,i;
+int main()
+{
+    printf("enter the interger:\n");
+    scanf("%d",&v);
+    printf("divisor of the given number is:%d\n",v);
+    for(i=1;i<=v;i++){
+        if((v%i)==0){
+            printf("%d\n",i);
+            printf("\n");
+        }
+    }
+
+    return 0;
+}
+*******************************************************************************************************************************
+WAP TO CHECK NUMBER IS PERFECT NUMBER OR NOT
+
+#include<stdio.h>  
+#include<conio.h>  
+void main()  
+{  
+int i = 1, num, Sum = 0;  
+printf(" Enter the Number \n");  
+scanf("%d", &num);  
+  
+while(i < num )  
+                     {  
+                               if(num % i == 0)  
+                               Sum = Sum + i;  
+                               i++;  
+                     }  
+           if(Sum == num)  
+                  printf("\n %d is Perfect Number", num);  
+           else  
+           printf("\n %d is not a Perfect Number", num);  
+getch();  
+}
+******************************************************************************************************************************
+WAP CHECK PALLINDROME
+
+#include<stdio.h>  
+int main()    
+{    
+int n,r,sum=0,t;    
+printf("enter the number=");    
+scanf("%d",&n);    
+t=n;    
+while(n>0)    
+{    
+r=n%10;    
+sum=(sum*10)+r;    
+n=n/10;    
+}    
+if(t==sum)    
+printf("palindrome number ");    
+else    
+printf("not palindrome");   
+return 0;  
+}  
+*******************************************************************************************************************************
+WAP TO REVERSE NUMBER
+
+#include<stdio.h>  
+ int main()    
+{    
+int n, rev=0, rem;    
+printf("Enter a number: ");    
+  scanf("%d", &n);    
+  while(n!=0)    
+  {    
+     rem=n%10;    
+     reVe=rev*10+rem;    
+     n/=10;    
+  }    
+  printf("Reversed Number: %d",rev);    
+return 0;  
+}  
+******************************************************************************************************************************** 
+WAP TO CHECK ARMSTRONG OR NOT
+
+#include<stdio.h>  
+ int main()    
+{    
+int n,r,sum;    
+printf("Enter a number: ");    
+  scanf("%d", &n);
+while(n>0)
+{
+ r=n%10;
+sum=sum+(r*r*r);
+n=n/10;
+}
+if(n==sum)
+{
+printf("it is armstrong number");
+}
+else
+{
+printf("it is not a aramstrong number");
+}
+return 0;
+}
+************************************************************************************************************************************
 
 
 

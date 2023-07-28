@@ -670,6 +670,807 @@ printf("it is not a aramstrong number");
 return 0;
 }
 ************************************************************************************************************************************
+mix
+         *
+       *   *
+     *  *   *
+    *  *   *  *
+#include <stdio.h>
+int i,j,k,sp=10;
+int main()
+{
+    for(i=1;i<=4;i++)
+    {
+        for(k=1;k<=sp;k++)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+           printf("*  "); 
+        }
+        printf("\n");
+        sp=sp-2;
+    }
+    
+
+    return 0;
+}
+**************************************************************************************************************************************
+WAP TO "*" DAIMOND
+
+#include <stdio.h>
+int i,j,k,sp=10;
+int main()
+{
+     for(i=1;i<=4;i++)
+    {
+        for(k=1;k<=sp;k++)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+           printf("   *"); 
+        }
+        printf("\n");
+        sp=sp-2;
+    }
+    int a,b,c,s=6;
+     for(a=3;a>=1;a--)
+    {
+        for(c=1;c<=s;c++)
+        {
+            printf(" ");
+        }
+        for(b=1;b<=a;b++)
+        {
+           printf("   *"); 
+        }
+        printf("\n");
+        s=s+2;
+    }
+    
+    return 0;
+}
+***********************************************************************************************************************************
+1
+1 2
+1 2 3
+1 2 3 4
+
+#include <stdio.h>
+int i,j;
+int main()
+{
+    for(i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("%d",i); 
+        }
+        printf("\n");
+    }
+    return 0;
+}
+*********************************************************************************************************************************
+1
+2 2
+3 3 3
+4 4 4 4
+
+#include <stdio.h>
+int i,j;
+int main()
+{
+    for(i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("%d",j); 
+        }
+        printf("\n");
+    }
+    return 0;
+}
+*********************************************************************************************************************************
+A
+A B
+A B C
+A B C D
+
+#include <stdio.h>
+int A,B;
+int main()
+{
+    for(A=1;A<=4;A++)
+    {
+        for(B=1;B<=i;B++)
+        {
+           printf("%d",B); 
+        }
+        printf("\n");
+    }
+    return 0;
+}
+*******
+*
+* *
+* * *
+* * * *
+
+#include <stdio.h>
+int i,j;
+int main()
+{
+    for(i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("*"); 
+        }
+        printf("\n");
+    
+    }
+    return 0;
+}
+*********************************************************************************************************************************
+* * * *
+* * *
+* *
+*
+
+#include <stdio.h>
+int i,j;
+int main()
+{
+    for(i=4;i>=1;i--)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("*"); 
+        }
+        printf("\n");
+    
+    }
+    return 0;
+}
+**********************************************************************************************************************************
+* * * *
+  * * * 
+    * *
+      *
+
+#include <stdio.h>
+int i,j,k,sp=5;
+int main()
+{
+    for(i=4;i>=1;i--)
+    {
+        for(k=4;k<=sp;k++)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+           printf(" *"); 
+        }
+        printf("\n");
+        sp=sp+2;
+    
+    }
+    return 0;
+}
+*********************************************************************************************************************************
+*
+* *
+* * *
+* * * *
+* * *
+* *
+*         
+
+#include <stdio.h>
+int i,j;
+int main()
+{
+    for(i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("*"); 
+        }
+        printf("\n");
+    
+    }
+int a,b;
+    for(a=4;a>=1;a--)
+    {
+        for(b=1;b<=a;b++)
+        {
+           printf("*"); 
+        }
+        printf("\n");
+    
+    }
+     return 0;
+}
+************************************************************************************************************************************
+1
+2 3
+4 5 6
+7 8 9 10
+
+#include <stdio.h>
+int i,j,no=1;
+int main()
+{
+    for(i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("%d",no);
+           no=no+1;
+        }
+        printf("\n");
+    
+    }
+    return 0;
+}
+*********************************************************************************************************************************
+0
+2 4
+6 8 10
+
+#include <stdio.h>
+int i,j,no=0;
+int main()
+{
+    for(i=1;i<=3;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("%d",no);
+           no=no+2;
+          
+        }
+        printf("\n");
+    
+    }
+    return 0;
+}
+************************************************************************************************************************************
+1
+3 5
+7 9 11
+
+#include <stdio.h>
+int i,j,no=1;
+int main()
+{
+    for(i=1;i<=3;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("%d",no);
+           no=no+2;
+          
+        }
+        printf("\n");
+    
+    }
+    return 0;
+}
+*************************************************************************************************************************************
+A
+A B
+A B C
+A B C D
+
+#include <stdio.h>
+int i,j;
+ ch=A;
+int main()
+{
+    for(i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+           printf("%c",ch++); 
+	   ch=A;
+        }
+        printf("\n");
+    }
+    return 0;
+}
+**************************************************************************************************************************************
+ONE DIMENSIONAL ARRAY PROGRAM/STRING
+
+1 WAP TO ACCEPT N ELEMENTS DISPLAY ONLY EVEN NUMBER
+
+#include <stdio.h>
+int x[10],i,n;
+int main()
+{
+  printf("enter the number less than:\n");
+scanf("%d",&n);
+printf("enter the elements of array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+printf("even number are:\n");
+for(i=0;i<n;i++)
+{
+if(x[i]%2==0)
+{
+printf("%d",x[i]);
+
+}
+}
+    return 0;
+}
+
+**************************************************************************************************************************************
+2 WAP TO ACCEPT N ELEMENTS DISPLAY ONLY ODD NUMBER
+
+#include <stdio.h>
+int x[10],i,n;
+int main()
+{
+  printf("enter the number less than:\n");
+scanf("%d",&n);
+printf("enter the elements of array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+printf("odd number are:\n");
+for(i=0;i<n;i++)
+{
+if(x[i]%2!=0)
+{
+printf("%d",x[i]);
+}
+}
+    return 0;
+}
+***************************************************************************************************************************************
+3  WAP TO ACCEPT N ELEMENTS DISPLAY ONLY PERFECT NUMBER
+
+#include<stdio.h>
+
+int main()
+{
+	int n,i,x[10],div,sum=0;
+	printf("enter the number less than:\n");
+	scanf("%d",&n);
+	printf("enter the elements of array:\n");
+	for(i=0;i<n;i++)
+	{
+	scanf("%d",&x[i]);
+}
+
+	for(i=0;i<n;i++){
+		sum=0;
+		for(div=1;div<=x[i]/2;div++)
+		{
+			if(x[i]%div==0)
+			{
+				sum=sum+div;
+			}
+		}
+		if(sum==x[i])
+		{
+			printf("\n %d it is a perfect number",x[i]);
+		}
+	}
+    return 0;
+}
+****************************************************************************************************************************************
+4  WAP TO ACCEPT N ELEMENTS DISPLAY ONLY PRIME NUMBER
+
+
+#include <stdio.h>
+int x[10],i,n,j,f=0;
+int main()
+{
+  printf("enter the number less than:\n");
+scanf("%d",&n);
+printf("enter the elements of array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+
+printf("PRIME number are:\n");
+for(i=1;i<x[i];i++)
+{
+
+n=x[i];
+f=0;
+for(j=2;j<n;j++)
+
+if(n%j==0)
+{
+	f=1;
+	break;
+}
+if(f==0)
+{
+	printf("%d",n);
+}
+}
+return 0;
+
+}
+
+   
+****************************************************************************************************************************************
+5  WAP TO ACCEPT N ELEMENTS DISPLAY ONLY PALLINDROME NUMBER
+
+#include <stdio.h>
+int x[10],i,n,t,r,sum=0;
+int main()
+{
+  printf("enter the number less than:\n");
+scanf("%d",&n);
+printf("enter the elements of array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+for(i=0;i<n;i++)
+{
+t=x[i]; 
+sum=0;   
+while(t>0)    
+{   
+r=t%10;    
+sum=sum*10+r;    
+t=t/10;    
+}    
+if(sum==x[i])    
+{
+printf("\n palindrome number are:%d ",x[i]);   
+} 
+}
+return 0;
+}
+
+******************************************************************************************************************************************
+6 WAP TO ACCEPT N ELEMENTS and sort in ascending order 
+
+#include <stdio.h>
+int x[10],i,n,j,t;
+int main()
+{
+  printf("enter the number less than:\n");
+scanf("%d",&n);
+printf("enter the elements of array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+for(i=0;i<n;i++)
+{
+for(j=i+1;j<n;j++)
+{
+    if(x[i]>x[j])
+    {
+        t=x[i];
+        x[i]=x[j];
+        x[j]=t;
+    }
+}
+}
+printf("sorted ascending array is \n");
+for(i=0;i<n;i++)
+{
+    printf("%d",x[i]);
+}
+    return 0;
+}
+****************************************************************************************************************************************************
+7 WAP TO ACCEPT N ELEMENTS and sort in descending order 
+
+#include <stdio.h>
+int x[10],i,n,j,t;
+int main()
+{
+  printf("enter the number less than:\n");
+scanf("%d",&n);
+printf("enter the elements of array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+for(i=0;i<n;i++)
+{
+for(j=i+1;j<n;j++)
+{
+    if(x[i]<x[j])
+    {
+        t=x[i];
+        x[i]=x[j];
+        x[j]=t;
+    }
+}
+}
+printf("sorted ascending array is \n");
+for(i=0;i<n;i++)
+{
+    printf("%d",x[i]);
+}
+    return 0;
+}
+*********************************************************************************************************************************************************
+8 WAP TO ACCEPT N ELEMENTS and reverse the array 
+
+#include <stdio.h>
+int x[10],i,n,j,t;
+int main()
+{
+  printf("enter the number less than:\n");
+scanf("%d",&n);
+printf("enter the elements of array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+i=0;
+j=n-1;
+while(i<j)
+{
+    t=x[i];
+    x[i]=x[j];
+    x[j]=t;
+    i++;
+    j--;
+}
+printf("reverse array is \n");
+for(i=0;i<n;i++)
+{
+    printf("%d",x[i]);
+}
+    return 0;
+}
+**********************************************************************************************************************************************************
+9 WAP TO ACCEPT DECIMAL NUMBER and CONVERT TO BINARY
+
+#include <stdio.h>
+int rem[10],num,i=0;
+int main()
+{
+  printf("enter the decimal no:\n");
+scanf("%d",&num);
+while(num!=0)
+{
+    rem[i]=num%2;
+    num=num/2;
+    i++;
+}
+i--;
+while(i>=0)
+{
+    printf("%d",rem[i]);
+    i--;
+}
+    return 0;
+}
+********************************************************************************************************************************************************* 
+10 WAP TO ACCEPT DECIMAL NUMBER and CONVERT TO OCTAL
+
+#include <stdio.h>
+int rem[10],num,i=0;
+int main()
+{
+  printf("enter the decimal no:\n");
+scanf("%d",&num);
+while(num!=0)
+{
+    rem[i]=num%8;
+    num=num/8;
+    i++;
+}
+i--;
+while(i>=0)
+{
+    printf("%d",rem[i]);
+    i--;
+}
+    return 0;
+}
+
+**************************************************************************************************************************************************
+11 WAP TO ACCEPT DECIMAL NUMBER and CONVERT TO HEXADECIMAL
+
+#include <stdio.h>
+int rem[10],num,i=0;
+int main()
+{
+  printf("enter the decimal no:\n");
+scanf("%d",&num);
+while(num!=0)
+{
+    rem[i]=num%16;
+    num=num/16;
+    i++;
+}
+i--;
+while(i>=0)
+{
+    if(rem[i]<10)
+    {
+    printf("%d",rem[i]);
+    else
+    {
+       switch(rem[i])
+       {
+                   case 10:printf("A");
+                   break;
+                   case 11:printf("B");
+                   break;
+                   case 12:printf("C");
+                   break;
+                   case 13:printf("D");
+                   break;
+                   case 14:printf("E");
+                   break;
+                   case 15:printf("F");
+                   break;
+       }
+    }
+}
+return 0;
+}
+*************************************************************************************************************************************************************
+12 WAP TO ACCEPT N ELEMENTS AND REMOVE THE DUPLICATE ELEMENTS
+
+#include <stdio.h>                                                          
+int x[100],i,j,n;
+int main()
+{
+printf("enter the number:");
+scanf("%d",&n);
+printf("enter the array elements:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+for(i=0;i<n;i++)
+{
+for(j=i+1;j<n;j++)	{
+	if(x[i]==x[j] && x[i]!= '#')
+	{
+		x[j]='#';
+	
+	}
+}
+}
+for(i=0;i<n;i++)
+{
+	if(x[i]!='#')
+	{
+		printf("%d",x[i]);
+	}
+}
+    return 0;
+}
+
+
+
+FOR STRING  
+
+
+#include<stdio.h>
+int main()
+{
+	char x[100],n, c='#';
+	int i,j,k=0;
+	printf("enter string:");
+	scanf("%s",&x);
+	for(i=0;x[i];i++)
+	{
+		if(!(x[i]==c))
+		{
+		
+		for(j=i+1;x[j];j++)
+		{
+			if(x[i]==x[j])
+			
+				x[j]=c;
+			
+		}
+	}
+	}
+	for(i=0;x[i];i++)
+	{
+		x[i]=x[i+k];
+		if(x[i]==c)
+		{
+			k++;
+			i--;
+	
+	}
+	}
+		printf("%s",x);
+	return 0;
+}
+**************************************************************************************************************************************************************
+13 WAP TO ACCEPT N ELEMENTS AND COUNT FREQUENCY OF EACH NUMBER
+
+
+#include <stdio.h>
+int x[10],i,n,j,count;
+int n=sizeof(x)/sizeof(x[i]);
+int main()
+{
+printf("enter the number less than:\n");
+scanf("%d",&n);
+printf("enter the elements of array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&x[i]);
+}
+int visited[n];
+for(i=0;i<n;i++)
+{
+if(visited[i]==0)
+{
+   count=1;
+    for(j=i+1;j<n;j++)
+    {
+        if(x[i]==x[j]){
+        count++;
+        visited[j]=1;
+    }
+    }
+    printf("%d occurs %d time\n",x[i],count);
+}
+
+}
+ return 0;
+}
+******************************************************************************************************************************
+WAP TO ACCEPT THE STRING AND DISPLAY IT
+
+#include <stdio.h>
+char ch [100];
+int main()
+{
+printf("enter the string:\n");
+scanf("%s",&ch);
+printf("entered string is :%s",ch);
+ return 0;
+}
+*****************************************************************************************************************************
+WAP TO ACCEPT THE STRING AND SORT ALPHABETICALLY
+
+
+#include<stdio.h>
+int i,j;
+char str[100],t;
+int main()
+{
+printf(" enter string\n");
+scanf("%s",str);
+for(i=0;str[i]!='\0';i++)
+{
+for(j=i+1;str[j]!='\0';j++)
+{
+if(str[i]>str[j])
+{
+t=str[i];
+str[i]=str[j];
+str[j]=t;
+}
+}
+}
+printf("sorted string is :\n %s",str);
+return 0;
+}
+******************************************************************************************************************************************************
 
 
 
